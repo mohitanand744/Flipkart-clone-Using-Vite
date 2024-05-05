@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #f1f2f4;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1% 3%;
+  box-shadow: rgba(149, 157, 165, 0.096) 0px 8px 24px;
+  background: #ffffff;
+  & .logo-container {
+    margin-left: -5rem;
+  }
+
+
+  & .menu {
+    display: none;
+    padding: 0 1rem;
+
+    & i{font-size: 2.3rem;}
+  }
+
+& .menu-data{
+  display: none;
+}
+
+
+  & .nav-container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    & .login-container {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    & .add-to-cart-container {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    & .flipkart-seller-container {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    & p {
+      font-size: 1.7rem;
+      color: #161616;
+    }
+  }
+}
+
+& .search-container {
+  background: #e6ecf8;
+  flex: 1;
+  margin: 0 2%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 1rem 2rem;
+
+  & i {
+    font-size: 2rem;
+  }
+
+  & input {
+    width: 100%;
+    padding: 0.4rem 0;
+    background: #e6ecf8;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    &::placeholder {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+.search-responsive-container {
+  position: sticky;
+  top: 0;
+  background: #e6ecf8;
+  flex: 1;
+  width: 100%;
+  display: none;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 1.8rem 2rem;
+
+  & i {
+    font-size: 2.1rem;
+  }
+
+  & input {
+    width: 100%;
+    padding: 0.4rem 0;
+    background: #e6ecf8;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    &::placeholder {
+      font-size: 1.9rem;
+      font-weight: 400;
+    }
+  }
+}
+
+p{
+  font-size: 8rem;
+}

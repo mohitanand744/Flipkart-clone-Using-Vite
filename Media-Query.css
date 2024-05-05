@@ -1,0 +1,58 @@
+@media screen and (width < 1100px) {
+  html {
+    font-size: 59%;
+  }
+  header {
+    & .search-container {
+      & input {
+        &::placeholder {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width < 968px) {
+  html {
+    font-size: 56.6%;
+  }
+}
+@media screen and (width < 898px) {
+  header {
+    & .nav-container {
+      & .flipkart-seller-container {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (width < 698px) {
+  header {
+    & .search-container {
+      display: none;
+    }
+    & .menu {
+      display: block;
+    }
+  }
+
+  .search-responsive-container {
+    display: flex;
+  }
+}
+
+@media screen and (width < 538px) {
+  html {
+    font-size: 51.5%;
+  }
+}
+
+@media screen and (width < 358px) {
+  header {
+    & .logo-container {
+        margin-left: -7.8rem;
+    }
+  }
+}
