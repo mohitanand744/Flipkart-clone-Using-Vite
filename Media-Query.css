@@ -33,13 +33,15 @@
     & .search-container {
       display: none;
     }
-    & .menu {
-      display: block;
-    }
   }
 
   .search-responsive-container {
     display: flex;
+  }
+  .Category-container {
+    & .container {
+      gap: 4rem;
+    }
   }
 }
 
@@ -47,12 +49,26 @@
   html {
     font-size: 51.5%;
   }
+  .login-hover-dropDown {
+    right: 10%;
+    width: 80%;
+  }
+  .Category-container {
+    & .container {
+      gap: 3rem;
+    }
+  }
 }
 
 @media screen and (width < 358px) {
   header {
     & .logo-container {
-        margin-left: -7.8rem;
+      margin-left: -5.8rem;
+
+      & img {
+        width: 130px;
+        height: 40px;
+      }
     }
   }
 }
