@@ -182,6 +182,7 @@ header {
 }
 
 .search-responsive-container {
+  z-index: 99;
   position: sticky;
   top: 0;
   background: #e6ecf8;
