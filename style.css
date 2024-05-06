@@ -344,6 +344,65 @@ header {
 
 /***** End Category Section *****/
 
+/***** Img slder Section *****/
+
+.img-slider {
+  width: 97%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+
+  & .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+
+    & img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+}
+  
+    & .prev,
+    .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.425);
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 3rem 1rem;
+      font-size: 2rem;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+
+      &:hover {
+        scale: 1.05;
+        background: #ffffff48;
+        color: #000;
+      }
+
+      &:active {
+        scale: 0.9;
+        background: #00000048;
+        color: #ffffff;
+      }
+    }
+
+    & .prev {
+      left: 0;
+    }
+    & .next {
+      right: 0;
+    }
+  }
+}
+/***** End Img slder Section *****/
+
 /***** Animations Section *****/
 
 @keyframes moving {
@@ -375,4 +434,12 @@ header {
     -o-transform: scale(1.03);
   }
 }
+
+@keyframes slider {
+  0% {
+  }
+  100% {
+  }
+}
+
 /***** End Animations Section *****/

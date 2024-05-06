@@ -17,6 +17,18 @@
   html {
     font-size: 56.6%;
   }
+  .img-slider {
+    & .slider {
+      & img {
+        height: 250px;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+}
+    }
+  }
 }
 @media screen and (width < 898px) {
   header {
