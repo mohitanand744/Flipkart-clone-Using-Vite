@@ -27,8 +27,8 @@ let prevBtn = btnContainer.querySelector(".prev");
 let nextBtn = btnContainer.querySelector(".next");
 
 nextBtn.onclick = () => {
-  bestSellingProductsContainer.scrollLeft += 250;
+  bestSellingProductsContainer.scrollLeft += 200;
 };
 prevBtn.onclick = () => {
-  bestSellingProductsContainer.scrollLeft -= 250;
+  bestSellingProductsContainer.scrollLeft -= 200;
 };
