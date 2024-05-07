@@ -10,7 +10,7 @@ export let showBestSellingProduct = (bestSellingProducts) => {
     return false;
   }
   bestSellingProducts.forEach((bestSellingProducts) => {
-    let { id, image, price } = bestSellingProducts;
+    let { image } = bestSellingProducts;
     let cloneImageOfBestSellingProducts = document.importNode(
       templateBestsellingProducts.content,
       true
