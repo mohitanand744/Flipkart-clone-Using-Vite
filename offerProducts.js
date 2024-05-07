@@ -8,9 +8,9 @@ export let offerProducts = () => {
   let nextBtn = btnContainer.querySelector(".next");
 
   nextBtn.onclick = () => {
-    bestSellingProductsContainer.scrollLeft += 440;
+    bestSellingProductsContainer.scrollLeft += 300;
   };
   prevBtn.onclick = () => {
-    bestSellingProductsContainer.scrollLeft -= 440;
+    bestSellingProductsContainer.scrollLeft -= 300;
   };
 };
