@@ -26,7 +26,7 @@
         -moz-border-radius: 1rem;
         -ms-border-radius: 1rem;
         -o-border-radius: 1rem;
-}
+      }
     }
   }
 }
@@ -55,6 +55,21 @@
       gap: 4rem;
     }
   }
+  .offer-Container {
+    & img {
+      width: 100%;
+    }
+  }
+  .bestselling {
+    & .head h2 {
+      font-size: 2.4rem;
+    }
+    & .bestselling-products {
+      & img {
+        height: 155px;
+      }
+    }
+  }
 }
 
 @media screen and (width < 538px) {
@@ -68,6 +83,24 @@
   .Category-container {
     & .container {
       gap: 3rem;
+    }
+  }
+  .bestselling {
+    padding: 0.6;
+
+    & .head {
+      padding: 0;
+
+      & h2 {
+        font-size: 2.3rem;
+      }
+    }
+
+    & .bestselling-products {
+      gap: 2rem;
+      & img {
+        height: 130px;
+      }
     }
   }
 }

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch9.jpg"
+    },
+    {
+        "id": 2,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch2.jpg"
+    },
+    {
+        "id": 3,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch3.jpg"
+    },
+    {
+        "id": 4,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch4.jpg"
+    },
+    {
+        "id": 5,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch5.jpg"
+    },
+    {
+        "id": 6,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch6.jpg"
+    },
+    {
+        "id": 7,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch7.jpg"
+    },
+    {
+        "id": 8,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch8.jpg"
+    },
+    {
+        "id": 9,
+        "category": "Watch",
+        "brand": "ExampleBrand",
+        "price": 999.99,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "./public/watch1.jpg"
+    }
+]
