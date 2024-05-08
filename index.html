@@ -143,7 +143,6 @@
       <div class="bestselling-products"></div>
     </div>
 
-
     <div class="Offers-products">
       <div class="head">
         <h2>Up to 65% off on | Boat Products 💕</h2>
@@ -151,16 +150,66 @@
       <i class="fa-solid fa-angle-right next"></i>
       <i class="fa-solid fa-angle-left prev"></i>
       <div class="offer-products">
-        <img src="./public/boat1.webp" alt="boat1">
-        <img src="./public/boat2.webp" alt="boat1">
-        <img src="./public/boat3.webp" alt="boat1">
-        <img src="./public/boat4.webp" alt="boat1">
-        <img src="./public/boat5.webp" alt="boat1">
-        <img src="./public/boat6.webp" alt="boat1">
+        <img src="./public/boat1.webp" alt="boat1" />
+        <img src="./public/boat2.webp" alt="boat1" />
+        <img src="./public/boat3.webp" alt="boat1" />
+        <img src="./public/boat4.webp" alt="boat1" />
+        <img src="./public/boat5.webp" alt="boat1" />
+        <img src="./public/boat6.webp" alt="boat1" />
       </div>
     </div>
+    <div class="head">
+      <h2>products you may like💞</h2>
+    </div>
+    <div class="product-you-may-like-container"></div>
+
     <template id="template-bestselling-products">
       <img src="./public/watch1.jpg" alt="" />
+    </template>
+    <template id="template-products">
+      <div class="product-card" id="card">
+        <div class="product-img">
+          <img src="./public/mobile8.jpg" alt="mobile" />
+        </div>
+        <div class="discription">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+            accusantium iste eligendi?
+          </p>
+        </div>
+        <div class="ratings">
+          <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+          <i class="fa-regular fa-star-half-stroke" style="color: #ffd43b"></i
+          ><i class="fa-regular fa-star" style="color: #ffd43b"></i>
+          <span>3500 reviews...</span>
+        </div>
+        <div class="offer-container">
+          <a href="#">62% off</a>
+          <p>Great Summer Sale</p>
+        </div>
+        <div class="pricing-container">
+          <p class="price">₹45499</p>
+          <p>MRP : <span class="org-price">₹66699</span></p>
+        </div>
+        <div class="delevery">
+          <p>
+            Get it by <b>Monday</b>, May 13 <b>FREE Delivery</b> over
+            <b>₹499</b>. Fulfilled by Amazon.
+          </p>
+        </div>
+        <div class="addtocard-container">
+          <div class="product-quantity">
+            <p class="plus-quantity">+</p>
+            <p class="product-count">1</p>
+            <p class="minus-quantity">-</p>
+          </div>
+          <button class="addtocard">
+            <i class="fa-solid fa-cart-plus"></i>Add To Card
+          </button>
+        </div>
+      </div>
     </template>
     <script type="module" src="/main.js"></script>
     <script
