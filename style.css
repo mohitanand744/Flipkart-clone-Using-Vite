@@ -788,6 +788,7 @@ header {
         justify-content: center;
         align-items: center;
         border-radius: 50%;
+        font-size: 2.9rem;
         color: #fff;
         background: #0066ff;
         -webkit-border-radius: 50%;
