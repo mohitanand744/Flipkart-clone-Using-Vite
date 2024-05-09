@@ -1,7 +1,7 @@
 export let toggleQuantity = (e, id) => {
   let currCard = document.querySelector(`#card${id}`);
   let productQuantity = currCard.querySelector(".product-count");
-  console.log(productQuantity);
+
   let quantity =
     parseInt(productQuantity.getAttribute("productQuantitys")) || 1;
 
@@ -13,7 +13,7 @@ export let toggleQuantity = (e, id) => {
       quantity--;
     }
   }
-  console.log(quantity);
+
   productQuantity.innerText = quantity;
   productQuantity.setAttribute("productQuantitys", quantity);
 

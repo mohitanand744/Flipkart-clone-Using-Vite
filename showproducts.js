@@ -1,3 +1,4 @@
+import { addToCard } from "./addtocard";
 import { toggleQuantity } from "./toggleQuantity";
 
 let productsContainer = document.querySelector(
@@ -31,6 +32,11 @@ export let showCards = (products) => {
       .addEventListener("click", (e) => {
         toggleQuantity(e, id);
       });
+
+    cloneCard.querySelector(".addtocard").addEventListener("click", (e) => {
+      addToCard(e, id);
+    });
     productsContainer.append(cloneCard);
+    
   });
 };
