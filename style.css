@@ -830,6 +830,64 @@ header {
 
 /***** End product-you-may-like-container Section *****/
 
+.offer-products:nth-child(2) {
+  overflow: hidden;
+  flex-wrap: wrap;
+
+  & img {
+    height: 270px;
+    box-shadow: rgba(38, 57, 77, 0) 10px 10px 20px -10px;
+  }
+}
+
+/***** Footer Section *****/
+
+.flipkart-footer {
+  width: 100%;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 30px 0;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+}
+
+.flipkart-footer .container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.flipkart-footer h4 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+
+.flipkart-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flipkart-footer ul li {
+  margin-bottom: 10px;
+}
+
+.flipkart-footer ul li a {
+  font-size: 1.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.flipkart-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/***** End Footer Section *****/
+
 /***** Animations Section *****/
 
 @keyframes moving {

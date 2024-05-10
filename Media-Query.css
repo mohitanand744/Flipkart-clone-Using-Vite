@@ -60,6 +60,7 @@
       width: 100%;
     }
   }
+
   .bestselling {
     & .head h2 {
       font-size: 2.4rem;
@@ -73,7 +74,7 @@
   .Offers-products {
     & .offer-products {
       & img {
-        height: 186px;
+        height: 246px;
       }
     }
   }
@@ -92,7 +93,7 @@
     }
     & .offer-products {
       & img {
-        height: 146px;
+        height: 176px;
       }
     }
   }
@@ -120,6 +121,16 @@
       gap: 2rem;
       & img {
         height: 130px;
+      }
+    }
+  }
+}
+
+@media screen and (width < 468px) {
+  .Offers-products {
+    & .offer-products {
+      & img {
+        height: 246px;
       }
     }
   }

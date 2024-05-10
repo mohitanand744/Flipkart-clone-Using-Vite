@@ -3,7 +3,7 @@ import { updateCartValue } from "./updateCartValue";
 
 getLocalStorageData();
 
-export const addToCard = (e, id) => {
+export const addToCard = (id) => {
   let arrLocalStorageData = getLocalStorageData();
 
   const currCard = document.querySelector(`#card${id}`);
@@ -15,6 +15,18 @@ export const addToCard = (e, id) => {
   let existingProduct = arrLocalStorageData.find(
     (products) => products.id === id
   );
+
+  if (existingProduct && quantity > 1) {
+    quantity = existingProduct.quantity + Number(quantity);
+    price = Number(price * quantity);
+    let updatedData = { id, quantity, price };
+
+    updatedData = arrLocalStorageData.map((product) => {
+      return product.id === id ? updatedData : product;
+    });
+
+    localStorage.setItem("productData", JSON.stringify(updatedData));
+  }
 
   if (existingProduct) {
     return false;

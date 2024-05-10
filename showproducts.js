@@ -34,7 +34,7 @@ export let showCards = (products) => {
       });
 
     cloneCard.querySelector(".addtocard").addEventListener("click", (e) => {
-      addToCard(e, id);
+      addToCard(id);
     });
     productsContainer.append(cloneCard);
     
