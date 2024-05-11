@@ -11,6 +11,9 @@
       }
     }
   }
+  main {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (width < 968px) {
@@ -31,6 +34,9 @@
   }
 }
 @media screen and (width < 898px) {
+  html {
+    font-size: 54.6%;
+  }
   header {
     & .nav-container {
       & .flipkart-seller-container {
@@ -38,15 +44,62 @@
       }
     }
   }
+
+  .Offers-products {
+    & .offer-products {
+      & img {
+        height: 191px;
+      }
+    }
+  }
 }
 
 @media screen and (width < 698px) {
+  main {
+    & .right-container {
+      & .product {
+        flex-wrap: wrap;
+        & .p-container {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          & .img-quantity-container {
+            width: 32%;
+            & .product-img {
+              & img {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        & .remove-product {
+          margin: 1.8rem;
+
+          & i {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+    & .left-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
   header {
     & .search-container {
       display: none;
     }
   }
-
+  .Offers-products {
+    & .offer-products {
+      & img {
+        height: 161px;
+      }
+    }
+  }
   .search-responsive-container {
     display: flex;
   }
@@ -71,18 +124,32 @@
       }
     }
   }
-  .Offers-products {
-    & .offer-products {
-      & img {
-        height: 246px;
-      }
-    }
-  }
 }
 
 @media screen and (width < 538px) {
   html {
     font-size: 51.5%;
+  }
+  main {
+    & .right-container {
+      & .product {
+        & .p-container {
+          & .product-details-container {
+            & .discription {
+              width: 99%;
+            }
+          }
+          & .img-quantity-container {
+            width: 62%;
+            & .product-img {
+              & img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   .Offers-products {
     & .head h2 {
@@ -130,8 +197,13 @@
   .Offers-products {
     & .offer-products {
       & img {
-        height: 246px;
+        height: 121px;
       }
+    }
+  }
+  main {
+    & .left-container {
+      width: 96%;
     }
   }
 }

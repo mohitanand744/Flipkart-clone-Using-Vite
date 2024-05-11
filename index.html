@@ -20,9 +20,9 @@
   </head>
   <body>
     <header>
-      <div class="logo-container">
+      <a href="/" class="logo-container">
         <img src="./public/flipkart.svg" alt="flipkart logo" />
-      </div>
+      </a>
       <div class="search-container">
         <i class="fa-solid fa-magnifying-glass"></i>
         <input type="text" placeholder="Search for Products, Brands and More" />
@@ -58,13 +58,13 @@
             </div>
           </div>
         </div>
-        <div class="add-to-cart-container">
+        <a href="./cartProducts.html" class="add-to-cart-container">
           <img
             src="./public/add-to-card-icon.svg"
             alt="add-to-card-icon.svg"
           /><span class="productListCount">0</span>
           <p>Cart</p>
-        </div>
+        </a>
         <div class="flipkart-seller-container">
           <img src="./public/shop-icon.svg" alt="shop-icon.svg" />
           <p>Become a Seller</p>
@@ -284,8 +284,11 @@
         </div>
       </div>
     </footer>
-    
+
     <script type="module" src="/main.js"></script>
-    <script crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/50f49a27bf.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

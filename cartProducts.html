@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Online Shopping Site for Mobiles, Electronics, Furniture, Grocery,
+      Lifestyle, Books & More. Best Offers!
+    </title>
+
+    <!-- ========== fonts Section ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ========== End fonts Section ========== -->
+
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo-container">
+        <img src="./public/flipkart.svg" alt="flipkart logo" />
+      </a>
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search for Products, Brands and More" />
+      </div>
+      <div class="nav-container">
+        <div class="login-container">
+          <img src="./public/avatar-Login.svg" alt="avatar-Login.svg" />
+          <p>Login</p>
+          <i class="fa-solid fa-chevron-down"></i>
+          <div class="login-hover-dropDown">
+            <div class="sign-up-container">
+              <p>New Customer?</p>
+              <a href="#">Sign Up</a>
+            </div>
+            <div class="FacilitiesContainer">
+              <div class="logos-container">
+                <img src="./public/avatar-Login.svg" alt="avatar-Login" />
+                <img
+                  src="./public/flipkart-Pluse.svg"
+                  alt="flipkart-Pluse.svg"
+                />
+                <img src="./public/order.svg" alt="svg" />
+                <img src="./public/loved-products.svg" alt="svg" />
+                <img src="./public/rewards.svg" alt="svg" />
+              </div>
+              <div class="txt">
+                <p>My Profile</p>
+                <p>Flipkart Plus Zone</p>
+                <p>Orders</p>
+                <p>Wishlist</p>
+                <p>Rewards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="./cartProducts.html" class="add-to-cart-container">
+          <img
+            src="./public/add-to-card-icon.svg"
+            alt="add-to-card-icon.svg"
+          /><span class="productListCount">0</span>
+          <p>Cart</p>
+        </a>
+        <div class="flipkart-seller-container">
+          <img src="./public/shop-icon.svg" alt="shop-icon.svg" />
+          <p>Become a Seller</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="right-container">
+     
+       
+      </div>
+      <div class="left-container">
+        <div class="top-heading">
+          <h2>Price Details</h2>
+        </div>
+        <div class="full-details">
+          <div class="row">
+            <p>Price <span class="totalProducts">5 items</span></p>
+            <p class="total-amount">₹1,84,902</p>
+          </div>
+          <div class="row">
+            <p>Secured Packaging Fee</p>
+            <p class="total-amount">₹98</p>
+          </div>
+          <div class="row">
+            <p>Total Amount</p>
+            <p class="total-amount">₹1,85,000</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <template id="product-template">
+      <div class="product" id="card">
+        <div class="p-container">
+          <div class="img-quantity-container">
+            <div class="product-img">
+              <img src="./public/mobile8.jpg" alt="mobile" />
+            </div>
+            <div class="addtocard-container">
+              <div class="product-quantity">
+                <p class="plus-quantity">+</p>
+                <p class="product-count">1</p>
+                <p class="minus-quantity">-</p>
+              </div>
+            </div>
+          </div>
+          <div class="product-details-container">
+            <div class="discription">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                accusantium iste eligendi?
+              </p>
+            </div>
+            <div class="ratings">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i
+                class="fa-regular fa-star-half-stroke"
+                style="color: #ffd43b"
+              ></i
+              ><i class="fa-regular fa-star" style="color: #ffd43b"></i>
+              <span>3500 reviews...</span>
+            </div>
+            <div class="offer-container">
+              <a href="#">62% off</a>
+              <p>Great Summer Sale</p>
+            </div>
+            <div class="pricing-container">
+              <p class="price">₹45499</p>
+              <p>MRP : <span class="org-price">₹66699</span></p>
+            </div>
+            <div class="delevery">
+              <p>
+                Get it by <b>Monday</b>, May 13 <b>FREE Delivery</b> over
+                <b>₹499</b>. Fulfilled by Amazon.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="remove-product">
+          <i class="fa-solid fa-trash" style="color: #3b3b3b"></i>
+        </div>
+      </div>
+    </template>
+    <footer class="flipkart-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Connect With Us</h4>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script type="module" src="./showCartProducts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/50f49a27bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
