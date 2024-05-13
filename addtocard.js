@@ -5,7 +5,6 @@ getLocalStorageData();
 
 export const addToCard = (id) => {
   let arrLocalStorageData = getLocalStorageData();
-
   const currCard = document.querySelector(`#card${id}`);
 
   let quantity = Number(currCard.querySelector(".product-count").innerText);
@@ -29,7 +28,7 @@ export const addToCard = (id) => {
   }
 
   if (existingProduct) {
-    return false;
+    return alert("You already have this product in your list. If you'll Increase the quantity than we will increase the quantity in your card of same product");
   }
 
   let updatedData = { id, quantity, price };

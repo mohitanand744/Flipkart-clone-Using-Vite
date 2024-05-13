@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "name": "Laptop",
-    "category": "Computers",
+    "name": "Smartphone",
+    "category": "Mobile",
     "brand": "ExampleBrand",
     "price": 72999.99,
     "stock": 50,
-    "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-    "image": "./public/lapi.png"
+    "description": "Infinix SMART 8 (Rainbow Blue, 128 GB) 8 GB RAM | 128 GB ROM | Expandable Upto 2 TB.",
+    "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/c/t/-original-imagxsc4ufzm64uz.jpeg?q=70"
   },
   {
     "id": 2,
@@ -16,8 +16,8 @@
     "brand": "TechGadget",
     "price": 62499,
     "stock": 100,
-    "image": "./public/iphone.png",
-    "description": "Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera, 128GB storage, and a 4000mAh battery."
+    "image": "https://m.media-amazon.com/images/I/71PjpS59XLL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Apple iPhone 15 Plus (128 GB) - Blue."
   },
   {
     "id": 3,
@@ -26,8 +26,8 @@
     "brand": "SoundBeats",
     "price": 1449.99,
     "stock": 30,
-    "image": "./public/headphone.png",
-    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+    "image": "https://m.media-amazon.com/images/I/61CTGoZ5woL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "ZEBRONICS Duke 60hrs Playtime Bluetooth Wireless Over Ear Headphone with Mic (Black)."
   },
   {
     "id": 4,
@@ -36,8 +36,8 @@
     "brand": "FitTech",
     "price": 1959,
     "stock": 20,
-    "image": "./public/watch.png",
-    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
+    "image": "https://m.media-amazon.com/images/I/61JuO1J+hwL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Nillkin Strap Case for Apple Watch 7/8 Gen, 45 mm Dial Dyna Guard Wrist Band Case Solid Alloy Shell TPU Watch Strap Shock Absorb."
   },
   {
     "id": 5,
@@ -46,8 +46,8 @@
     "brand": "SoundBeats",
     "price": 999,
     "stock": 30,
-    "image": "./public/speakers.png",
-    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+    "image": "https://m.media-amazon.com/images/I/61CcvfVAQHL._AC_SR155,154_AGmerlin_QL67_.jpg",
+    "description": "boAt Stone 1200 14W Bluetooth Speaker with Upto 9 Hours Battery, RGB LEDs, IPX7 and TWS."
   },
   {
     "id": 6,
@@ -56,7 +56,7 @@
     "brand": "Samsung",
     "price": 49999,
     "stock": 20,
-    "image": "./public/tv.png",
+    "image": "https://m.media-amazon.com/images/I/61Njp6OstkL._AC_UL480_FMwebp_QL65_.jpg",
     "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish silver color."
   },
   {

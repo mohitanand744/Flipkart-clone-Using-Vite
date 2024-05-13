@@ -111,6 +111,10 @@ header {
 
       & span {
         font-size: 2rem;
+        font-weight: bold;
+        color: #0066ff;
+      }
+      & p{
         font-weight: 500;
       }
     }
@@ -859,6 +863,12 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 5rem;
+}
+.col p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #969696;
+  margin-top: 4rem;
 }
 .flipkart-footer h4 {
   font-size: 2.4rem;

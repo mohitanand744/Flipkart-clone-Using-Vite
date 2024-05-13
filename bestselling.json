@@ -5,7 +5,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch9.jpg"
+        "image": "https://m.media-amazon.com/images/I/61XaXHxw9hL._AC_SY200_.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch2.jpg"
+        "image": "https://m.media-amazon.com/images/I/61nb3mSEQzL._AC_SY200_.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch3.jpg"
+        "image": "https://m.media-amazon.com/images/I/71u77Ob5LWL._AC_SY200_.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch4.jpg"
+        "image": "https://m.media-amazon.com/images/I/61sEc0jwmvL._AC_SY200_.jpg"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch5.jpg"
+        "image": "https://m.media-amazon.com/images/I/617AhaPt53L._AC_SY200_.jpg"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch6.jpg"
+        "image": "https://m.media-amazon.com/images/I/61lVcqRHKvL._AC_SY200_.jpg"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch7.jpg"
+        "image": "https://m.media-amazon.com/images/I/51g1bLteeVL._AC_SY200_.jpg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch8.jpg"
+        "image": "https://m.media-amazon.com/images/I/61NOXa-CErL._AC_SY200_.jpg"
     },
     {
         "id": 9,
@@ -69,6 +69,6 @@
         "brand": "ExampleBrand",
         "price": 999.99,
         "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
-        "image": "./public/watch1.jpg"
+        "image": "https://m.media-amazon.com/images/I/71yl-NIFgpL._AC_SY200_.jpg"
     }
 ]
