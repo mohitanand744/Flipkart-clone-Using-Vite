@@ -15,6 +15,8 @@ offerProducts();
 
 showCards(products);
 
+
+
 let loginHoverDropDown = document.querySelector(".login-hover-dropDown");
 document.querySelector(".login-container").addEventListener("click", () => {
   loginHoverDropDown.classList.toggle("activeDropDown");

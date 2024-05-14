@@ -4,23 +4,15 @@ import products from "./products.json";
 import { getLocalStorageData } from "./getLocalStorageData";
 import { removeCartProduct } from "./removeCartProduct";
 import { quantityToggle } from "./quantityToggle";
+import { updateTotalPrice } from "./updateTotalPrice";
+import { cartEmptyCheck } from "./cartEmpty";
 
-let rightContainer = document.querySelector(".right-container");
-let leftContainer = document.querySelector(".left-container");
 let loginHoverDropDown = document.querySelector(".login-hover-dropDown");
 document.querySelector(".login-container").addEventListener("click", () => {
   loginHoverDropDown.classList.toggle("activeDropDown");
 });
 
 let localStorageData = getLocalStorageData();
-
-if (localStorageData.length === 0) {
-  let image = document.createElement("img");
-  image.src = "https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-5521508-4610092.png";
-  image.classList.add("empty");
-  leftContainer.innerHTML = "<h1 class='emty'>Your cart is empty! 😒</h1>";
-  rightContainer.appendChild(image);
-}
 
 let localStorageIds = localStorageData.map((data) => data.id);
 
@@ -69,3 +61,5 @@ let showCarts = () => {
 };
 
 showCarts();
+updateTotalPrice();
+cartEmptyCheck();

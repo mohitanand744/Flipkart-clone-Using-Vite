@@ -1,4 +1,5 @@
 import { getLocalStorageData } from "./getLocalStorageData";
+import { updateTotalPrice } from "./updateTotalPrice";
 
 export let quantityToggle = (e, id, price) => {
   let currCard = document.querySelector(`#card${id}`);
@@ -40,4 +41,6 @@ export let quantityToggle = (e, id, price) => {
   });
 
   localStorage.setItem("productData", JSON.stringify(updatedData));
+
+  updateTotalPrice();
 };
