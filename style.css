@@ -895,14 +895,13 @@ header {
 /***** CartProducts Section *****/
 
 main {
-  padding: 10rem 0;
+  padding: 10rem 0 25rem 0;
   width: 100%;
   max-width: 96%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding-bottom: 20rem;
 
   & .right-container {
     background: #fff;
