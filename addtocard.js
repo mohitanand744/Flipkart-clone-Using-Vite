@@ -28,7 +28,9 @@ export const addToCard = (id) => {
   }
 
   if (existingProduct) {
-    return alert("You already have this product in your list. If you'll Increase the quantity than we will increase the quantity in your card of same product");
+    if (existingProduct.quantity < 2) {
+      return false;
+    }
   }
 
   let updatedData = { id, quantity, price };

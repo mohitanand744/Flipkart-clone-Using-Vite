@@ -3,6 +3,8 @@ import { updateCartValue } from "./updateCartValue";
 
 export let removeCartProduct = (id) => {
   let localStorageData = getLocalStorageData();
+
+  
   let filteredData = localStorageData.filter((data) => data.id !== id); 
   localStorage.setItem("productData", JSON.stringify(filteredData));
 

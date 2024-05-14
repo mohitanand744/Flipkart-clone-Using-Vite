@@ -12,11 +12,15 @@
     }
   }
   main {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
   }
 }
 
 @media screen and (width < 968px) {
+  
   html {
     font-size: 56.6%;
   }
@@ -124,9 +128,14 @@
       }
     }
   }
+  .empty{
+    width: 85vw;
+    height: 300px;
+  }
 }
 
 @media screen and (width < 538px) {
+ 
   html {
     font-size: 51.5%;
   }
@@ -143,7 +152,7 @@
             width: 62%;
             & .product-img {
               & img {
-                width: 100%;
+                width: 80%;
               }
             }
           }
